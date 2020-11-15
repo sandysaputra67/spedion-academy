@@ -2794,7 +2794,9 @@ ul {
 }
 
 .navigation-portrait {
-    height: 48px
+    height: 48px;
+ 
+
 }
 
 .navigation-fixed {
