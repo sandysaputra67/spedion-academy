@@ -1,5 +1,5 @@
 import React, { createContext } from 'react';
-import { auth } from '../services';
+import { auth } from '../services/firebase';
 
 
 //Membuat Context Api

@@ -1,13 +1,17 @@
-import React, { Component } from 'react';
-// import {Header, Footer} from '../../../components';
+import React from 'react';
+import FormSeminar from './form'
+import { CrudContextProvider } from '../../../utils';
 
-class SeminarOnline extends Component {
+const SeminarOnline =()=> {
 
-    render() {
         return (
-            <>Seminar Online</>
-        );
-    }
+            <CrudContextProvider>
+     
+            <FormSeminar/>
+
+            </CrudContextProvider>
+         );
+    
 }
 
 export default SeminarOnline;
