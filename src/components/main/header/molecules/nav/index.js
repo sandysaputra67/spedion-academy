@@ -13,6 +13,7 @@ const handleQuery = (e) =>{
 }
 const handleDefault = (e) =>{
 	    e.preventDefault()
+        
 }
   return (
     <>

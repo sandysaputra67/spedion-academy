@@ -6,6 +6,7 @@ const Teachers = (props) => {
   return (
     <>
     	<Profile/>
+     
     </>
   )
 }

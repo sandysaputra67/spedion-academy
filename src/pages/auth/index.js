@@ -1,12 +1,13 @@
 import React from 'react';
-import  { Daftar }from '../../components';
+import  { Daftar, Masuk }from '../../components';
 
-const Auth = (props) => {
+const Login = (props) => {
   return (
    <>
    		<Daftar/>
+   		<Masuk/>
    </>
   )
 }
 
-export default Auth;
+export default Login;

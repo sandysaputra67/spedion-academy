@@ -1,18 +1,21 @@
 import React from 'react';
-import  { Banner, Header, Footer }from '../../components';
+import  { Banner }from '../../components';
+import KursusViews from './kursus';
+import SeminarOnline from './seminar';
+import Market from './market';
+import Instruktur from './instruktur';
 
 const Main = (props) => {
 
   return (
 
     <>
-    	
-    	<Header/>
     	<Banner/>
-    	<Footer/>
 
     </>
   )
 }
 
-export default Main;
+export {
+ Main, KursusViews, SeminarOnline, Market, Instruktur
+} 

@@ -1,5 +1,7 @@
 import { Teachers, Students } from './admin';
-import Auth from './auth';
-import Main from './main';
+import Login from './auth';
+import  {
+ Main, KursusViews, SeminarOnline, Market, Instruktur
+}  from './main';
 
-export { Teachers, Students, Auth, Main };
+export { Teachers, Students, Login, Main, KursusViews, SeminarOnline, Market, Instruktur };

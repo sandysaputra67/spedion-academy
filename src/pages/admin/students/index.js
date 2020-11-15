@@ -6,7 +6,7 @@ const Students = (props) => {
   return (
     <div>
     	<>
-    		<ProfileStudent/>
+	    	<ProfileStudent/>
     	</>
     </div>
   )
