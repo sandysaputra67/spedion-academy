@@ -1,5 +1,5 @@
 import React, { StrictMode } from 'react';
-import { MainApp, Dashboard } from './routes';
+import { MainApp } from './routes';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 const App = (props) => {
@@ -8,7 +8,7 @@ const App = (props) => {
   		
   	    <Router>
   	        <>
-  	            <Route exact path='/dashboard' component={Dashboard}/>
+  	            {/* <Route exact path='/admin' component={Dashboard}/> */}
   	            <Route exact path='/' component={MainApp}/>
   	        </>
   	  

@@ -1,13 +1,12 @@
 import React, { StrictMode } from 'react';
-
-const Dashboard = (props) => {
+import { Students } from '../pages';
+export const Dashboard = (props) => {
   return (
     <> <StrictMode>
-    	Dashboard
+    		
+    		<Students/>
 
     	</StrictMode>
     </>
   )
 }
-
-export default Dashboard;

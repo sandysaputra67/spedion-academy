@@ -17,7 +17,7 @@ const handleDefault = (e) =>{
 }
 const goDashboard = () => {
     // const host = window.location.hostname;
-    window.location.href = "/dashboard";
+    window.location.href = "/admin";
 }
 
 
@@ -53,7 +53,7 @@ const goDashboard = () => {
     	    <li><NavLink to='/' onClick={handleDefault}>Akun<span className="submenu-indicator"></span></NavLink>
     	        <ul className="nav-dropdown nav-submenu">
     	            <li>
-    	                <NavLink to='/dashboard' onClick={()=>goDashboard()}>Dashboard</NavLink>
+    	                <NavLink to='/admin' onClick={()=>goDashboard()}>Dashboard</NavLink>
     	            </li>
     	        </ul>
     	    </li>
