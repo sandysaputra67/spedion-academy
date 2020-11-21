@@ -1,45 +1,45 @@
-import React, { useContext, useState } from 'react';
+import React, {/*useContext, useState*/} from 'react';
 // import { useList } from 'react-firebase-hooks/database';
-import JadwalSeminar from './jadwal';
-import { CrudContext } from '../../../utils';
+// import JadwalSeminar from './jadwal';
+// import { CrudContext } from '../../../utils';
 
 const FormSeminar =()=> {
-const { PushData } = useContext(CrudContext)
-const [ jadwal, setJadwal ] = useState({});
-const [ event, setEvent ] = useState('');
-const [ tanggal, setTanggal ] = useState('');
-const [ deskripsi, setDeskripsi ] = useState('');
-const [ tempat, setTempat ] = useState('')
+// const { PushData } = useContext(CrudContext)
+// const [ jadwal, setJadwal ] = useState({});
+// const [ event, setEvent ] = useState('');
+// const [ tanggal, setTanggal ] = useState('');
+// const [ deskripsi, setDeskripsi ] = useState('');
+// const [ tempat, setTempat ] = useState('')
 // const [snapshot, loading, error] = useList();
 
-const handleTambahSeminar = () => {
-	if(!event && !tanggal) return alert("kosong!");
+// const handleTambahSeminar = () => {
+// 	if(!event && !tanggal) return alert("kosong!");
 
-	const jadwal_baru = {
-		...jadwal, seminar: event, date : tanggal, tempat: tempat, desc : deskripsi
-     }
+// 	const jadwal_baru = {
+// 		...jadwal, seminar: event, date : tanggal, tempat: tempat, desc : deskripsi
+//      }
    
-    setJadwal(jadwal_baru)
-	PushData('spedion/jadwal', jadwal_baru)
-	.then(()=>{
-		setJadwal({})
-		setEvent('')
-		setTanggal('')
-		setDeskripsi('')
-		setTempat('')
-	})
+//     setJadwal(jadwal_baru)
+// 	PushData('spedion/jadwal', jadwal_baru)
+// 	.then(()=>{
+// 		setJadwal({})
+// 		setEvent('')
+// 		setTanggal('')
+// 		setDeskripsi('')
+// 		setTempat('')
+// 	})
 	
-}
+// }
 
-const handleSubmitSeminar = (e) => {
-	e.preventDefault()
+// const handleSubmitSeminar = (e) => {
+// 	e.preventDefault()
 	
-}
+// }
 
 
         return (
             <>
-            <JadwalSeminar/>
+            {/*<JadwalSeminar/>
             <div className='container'>
     			<div className='panel jumbotron'>
     				<h2 className="text-center heading">Buat Jadwal Seminar</h2>
@@ -121,7 +121,7 @@ const handleSubmitSeminar = (e) => {
 				    							
 		            </form>    
 	         	</>
-	         </div>
+	         </div>*/}
             </>
          );
     
