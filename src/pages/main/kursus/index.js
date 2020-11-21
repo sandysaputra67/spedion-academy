@@ -144,10 +144,10 @@ export default class KursusViews extends Component {
 	render() {
 
 
-		const onClickHandler = () => {
-			sessionStorage.setItem('detail_kursus', JSON.stringify(this.state.gigs));
+			const onClickHandler = () => {
+				sessionStorage.setItem('detail_kursus', JSON.stringify(this.state.gigs));
 
-		}
+			}
 
 			const daftarKursus = this.state.gigs;
 			const tampilKursus = daftarKursus.map(data => {
