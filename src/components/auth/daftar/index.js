@@ -1,91 +1,92 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 const Daftar = (props) => {
-  return (
-    <div>
-    	<div class="content-center p-4">
-    	    <div class="content-desc-center">
-    	        <div class="container">
-    	            <div class="row justify-content-center">
-    	                <div class="col-lg-5 col-md-8">
-    	                    <div class="card">
-    	                        <div class="card-body">
-    	        
-    	                            <h4 class="text-muted text-center font-18"><b>Register</b></h4>
-    	        
-    	                            <div class="p-3">
-    	                                <form class="form-horizontal m-t-20" action="">
-    	        
-    	                                    <div class="form-group row">
-    	                                        <div class="col-12">
-    	                                            <input 
-                                                        class="form-control" 
-                                                        type="email" required="" 
-                                                        placeholder="Email"/>
-    	                                        </div>
-    	                                    </div>
-    	        
-    	                                    <div class="form-group row">
-    	                                        <div class="col-12">
-    	                                            <input 
-                                                        class="form-control" 
-                                                        type="text" 
-                                                        required="" 
-                                                        placeholder="Username"/>
-    	                                        </div>
-    	                                    </div>
-    	        
-    	                                    <div class="form-group row">
-    	                                        <div class="col-12">
-    	                                            <input 
-                                                        class="form-control" 
-                                                        type="password" 
-                                                        required="" 
-                                                        placeholder="Password"/>
-    	                                        </div>
-    	                                    </div>
-    	        
-    	                                    <div class="form-group row">
-    	                                        <div class="col-12">
-    	                                            <div class="control">
-    	                                                <input 
-                                                            type="checkbox" 
-                                                            class="checkbox-custom" 
-                                                            id="customCheck1" checked/>
-    	                                                <label 
-                                                            class="checkbox-custom-label font-weight-normal" 
-                                                            for="customCheck1">
-                                                        I Accept <a href="/" class="text-primary">Terms and Conditions</a></label>
-    	                                            </div>
-    	                                        </div>
-    	                                    </div>
-    	        
-    	                                    <div class="form-group text-center row m-t-20">
-    	                                        <div class="col-12">
-    	                                            <button 
-                                                        class="btn btn-primary btn-block waves-effect waves-light" 
-                                                        type="submit">Daftar</button>
-    	                                        </div>
-    	                                    </div>
-    	        
-    	                                    <div class="form-group m-t-10 mb-0 row">
-    	                                        <div class="col-12 m-t-20 text-center">
-    	                                            <a href="/" class="text-muted">Sudah punya akun?</a>
-    	                                        </div>
-    	                                    </div>
-    	                                </form>
-    	                            </div>
-    	        
-    	                        </div>
-    	                    </div>                        
-    	                </div>
-    	            </div>
-    	           {/* <!-- end row -->*/}
-    	        </div>
-    	    </div>
-    	</div>
-    </div>
-  )
+	return (
+		<>
+			<div className="content-center p-4">
+				<div className="content-desc-center">
+					<div className="container">
+						<div className="row justify-content-center">
+							<div className="col-lg-5 col-md-8">
+								
+								<div className="card">
+									<div className="card-body">
+
+										<h4 className="text-muted text-center font-18"><b>Register</b></h4>
+
+										<div className="p-2">
+											<form className="form-horizontal m-t-20" action="">
+
+												<div className="form-group row">
+													<div className="col-12">
+														<input
+															className="form-control"
+															type="email" required=""
+															placeholder="Email" />
+													</div>
+												</div>
+
+												<div className="form-group row">
+													<div className="col-12">
+														<input
+															className="form-control"
+															type="text"
+															required=""
+															placeholder="Username" />
+													</div>
+												</div>
+
+												<div className="form-group row">
+													<div className="col-12">
+														<input
+															className="form-control"
+															type="password"
+															required=""
+															placeholder="Password" />
+													</div>
+												</div>
+
+												<div className="form-group row">
+													<div className="col-12">
+														<div className="control">
+															<input
+																type="checkbox"
+																className="checkbox-custom"
+																id="customCheck1" checked />
+															<label
+																className="checkbox-custom-label font-weight-normal"
+																for="customCheck1">
+																I Accept <Link to="/" className="text-primary">Terms and Conditions</Link></label>
+														</div>
+													</div>
+												</div>
+
+												<div className="form-group text-center row m-t-20">
+													<div className="col-12">
+														<button
+															className="btn btn-primary btn-block waves-effect waves-light"
+															type="submit">Daftar</button>
+													</div>
+												</div>
+
+												<div className="form-group m-t-10 mb-0 row">
+													<div className="col-12 m-t-20 text-center">
+														<Link to="/" className="text-muted">Sudah punya akun?</Link>
+													</div>
+												</div>
+											</form>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</>
+	)
 }
 
 export default Daftar;

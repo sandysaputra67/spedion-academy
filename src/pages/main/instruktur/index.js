@@ -6,7 +6,9 @@ class Instruktur extends Component {
         return (
             <>
            
-            Instruktur
+                <div style={{ height: '100vh' }} className="justify-content-center content-center">
+                    <h3 className="jumbotron text-center">Semua Instruktur Kami</h3>
+                </div>
            
             </>
         );
