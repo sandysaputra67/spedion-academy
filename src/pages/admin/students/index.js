@@ -1,4 +1,5 @@
 import React from 'react';
+import LayoutStudents from "./LayoutStudents";
 import  { ProfileStudent }from '../../../components';
 
 const Students = (props) => {
@@ -6,7 +7,9 @@ const Students = (props) => {
   return (
     <div>
     	<>
-	    	<ProfileStudent/>
+	    	<LayoutStudents>
+          <ProfileStudent/>
+        </LayoutStudents>
     	</>
     </div>
   )
