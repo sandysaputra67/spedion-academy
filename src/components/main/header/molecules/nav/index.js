@@ -15,6 +15,7 @@ const handleDefault = (e) =>{
 	    e.preventDefault()
         
 }
+console.log(window.location.hostname);
   return (
     <>
     	<ul className="nav-menu" id="nav-menu">
