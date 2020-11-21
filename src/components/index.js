@@ -5,12 +5,12 @@ import {
 } from './admin';
 
 import { Masuk, Daftar } from './auth';
-import { Header, Banner, Footer  } from './main';
+import { Header, Banner, Footer, TaglineComponent  } from './main';
 
 export { 
   Loader,
   Profile, Pesanan, Saldo, Kursus, History, Chat,
   ProfileStudent, PesananStudent, SaldoStudent, KursusStudent, HistoryStudent, ChatStudent,
   Masuk, Daftar,
-  Header, Banner, Footer
+  Header, Banner, Footer, TaglineComponent
 };

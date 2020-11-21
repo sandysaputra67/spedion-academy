@@ -7,7 +7,7 @@ const SeminarOnline =()=> {
         return (
             <CrudContextProvider>
      
-            <FormSeminar/>
+            	<FormSeminar/>
 
             </CrudContextProvider>
          );

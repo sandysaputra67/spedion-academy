@@ -1,9 +1,14 @@
 import * as firebase from 'firebase';
+import 'firebase/app';
+import 'firebase/database';
+import 'firebase/storage';
+import 'firebase/firestore';
 
 const config = {
 	apiKey: "AIzaSyD2xB7yRg7Uf0kbPimP3qx78bbsJVjZoyI",
 	authDomain: "spedi-academy.firebaseapp.com",
-	databaseURL: "https://spedi-academy.firebaseio.com",
+	// databaseURL: "https://spedi-academy.firebaseio.com",
+	databaseURL:"http://localhost:9000?ns=crud-firebase-20d51",
 	projectId: "spedi-academy",
 	storageBucket: "spedi-academy.appspot.com",
 	messagingSenderId: "345655921983",

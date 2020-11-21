@@ -1,13 +1,19 @@
 import React from 'react';
-import  { Daftar, Masuk }from '../../components';
-
-const Login = (props) => {
+import {Masuk , Daftar} from '../../components';
+const SignIn = (props) => {
   return (
-   <>
-   		<Daftar/>
-   		<Masuk/>
-   </>
+    <div>
+    	<Masuk/>
+    </div>
   )
 }
 
-export default Login;
+const SignUp = (props) => {
+  return (
+    <div>
+    	<Daftar/>
+    </div>
+  )
+}
+
+export {SignUp, SignIn};

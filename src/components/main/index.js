@@ -1,4 +1,5 @@
 import Header from './header';
 import Footer from './footer';
 import Banner from './banner';
-export { Header, Banner, Footer };
+import TaglineComponent from './tagline';
+export { Header, Banner, Footer, TaglineComponent};

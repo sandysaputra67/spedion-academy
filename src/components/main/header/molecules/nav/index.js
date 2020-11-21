@@ -27,7 +27,7 @@ const handleDefault = (e) =>{
     	                <NavLink to='/kursus'>Semua Kursus</NavLink>
     	            </li>
     	            <li>
-    	                <NavLink to='/instruktur'>Cari Instruktur</NavLink>
+    	                <NavLink to='/instruktur'>Semua Instruktur</NavLink>
     	            </li>
     	        </ul>
     	    </li>
@@ -49,10 +49,6 @@ const handleDefault = (e) =>{
     	            <li>
     	                <NavLink to='/dashboard'>Dashboard</NavLink>
     	            </li>
-    	            <li>
-    	                <NavLink to='/settings'>Pengaturan</NavLink>
-    	            </li>
-
     	        </ul>
     	    </li>
     	   
