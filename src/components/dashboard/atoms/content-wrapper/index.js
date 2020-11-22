@@ -13,10 +13,10 @@ const ContentWrapper = (props) => {
     	                    <ol className="breadcrumb">
     	                        <li className="breadcrumb-item"><a href="/">Home</a></li>
     	                        <li className="breadcrumb-item"><a href="/">Pages</a></li>
-    	                        <li className="breadcrumb-item active">Starter</li>
+    	                        <li className="breadcrumb-item active">Dashboard</li>
     	                    </ol>
     	                </div>
-    	                <h5 className="page-title">Starter Page</h5>
+    	                <h5 className="page-title">Dashboard</h5>
     	                
     	            </div>
     	        </div>

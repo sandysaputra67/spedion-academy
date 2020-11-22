@@ -6,8 +6,9 @@ const NavComponent = (props) => {
 const handleQuery = (e) =>{
 	e.preventDefault()
     var inputQueryKursus = document.getElementById("input_search").value;
+    var path = window.location.pathname;
     if(inputQueryKursus){
-        var q = `/?query=${inputQueryKursus}`;
+        var q = `${path}?query=${inputQueryKursus}`;
         window.location.href = q
     }
 }
@@ -15,8 +16,8 @@ const handleDefault = (e) =>{
 	    e.preventDefault()
         
 }
-const goDashboard = () => {
-    // const host = window.location.hostname;
+const goDashboard = (e) => {
+	e.preventDefault();
     window.location.href = "/admin";
 }
 
@@ -53,7 +54,7 @@ const goDashboard = () => {
     	    <li><NavLink to='/' onClick={handleDefault}>Akun<span className="submenu-indicator"></span></NavLink>
     	        <ul className="nav-dropdown nav-submenu">
     	            <li>
-    	                <NavLink to='/admin' onClick={()=>goDashboard()}>Dashboard</NavLink>
+    	                <NavLink to='/admin' onClick={(e)=>goDashboard(e)}>Dashboard</NavLink>
     	            </li>
     	        </ul>
     	    </li>

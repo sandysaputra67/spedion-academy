@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { StrictMode } from 'react';
 import LayoutTeachers from "./LayoutTeachers";
 import  { Profile }from '../../../components';
 
 
 const Teachers = (props) => {
   return (
-    <>
+    <StrictMode>
       <LayoutTeachers>
 
      
@@ -14,7 +14,7 @@ const Teachers = (props) => {
 
       </LayoutTeachers>
      
-    </>
+    </StrictMode>
   )
 }
 

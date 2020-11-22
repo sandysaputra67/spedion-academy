@@ -1,8 +1,7 @@
 import React from 'react';
 import {
 
-	SidebarMenu, ContentWrapper, TopBarMenu,
-	LayoutSidebar, LayoutTopBar, LayoutDashboard, LayoutContentBoard
+	LayoutSidebar, LayoutDashboard, LayoutContentBoard
 
 } from '../../../components';
 
@@ -11,19 +10,11 @@ const LayoutStudents = (props) => {
 	return (
 		<>
 			<LayoutDashboard>
-				<LayoutSidebar>
-					<SidebarMenu />
-				</LayoutSidebar>
+				<LayoutSidebar/>
 
 				<LayoutContentBoard>
-
-					<LayoutTopBar>
-						<TopBarMenu />
-					</LayoutTopBar>
-
-					<ContentWrapper>
-						{props.children}
-					</ContentWrapper>
+					
+					{props.children}
 
 				</LayoutContentBoard>
 

@@ -6,7 +6,7 @@ const LogoDashboard = (props) => {
     <>
     	<div className="text-center">
     	    <Link to="/" className="logo">
-    	    	<img src="images/logo-dark.png" height="20" alt="logo"/>
+    	    	<img src="assets/dash/images/logo-dark.png" height="20" alt="logo"/>
     	    </Link>
     	</div>
     </>

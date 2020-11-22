@@ -1,4 +1,4 @@
 import MainApp from './MainApp';
-import { Dashboard } from './Dashboard';
+import { StudentDash } from './StudentDash';
 
-export { MainApp, Dashboard };
+export { MainApp, StudentDash };

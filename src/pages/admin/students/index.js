@@ -1,16 +1,15 @@
-import React from 'react';
+import React, {StrictMode} from 'react';
 import LayoutStudents from "./LayoutStudents";
-import { ProfileStudent } from '../../../components';
 
 const Students = (props) => {
 
   return (
     <div>
-      <>
+      <StrictMode>
         <LayoutStudents>
-          <ProfileStudent />
+          {props.children}
         </LayoutStudents>
-      </>
+      </StrictMode>
     </div>
   )
 }

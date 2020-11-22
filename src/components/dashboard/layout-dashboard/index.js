@@ -1,5 +1,5 @@
 import React from 'react';
-import { LogoDashboard, ButtonClose } from '../atoms';
+import { LogoDashboard, ButtonClose, SidebarMenu, ContentWrapper, TopBarMenu, } from '../atoms';
 // import '../assets/css/bootstrap.min.css';
 // import '../assets/css/icons.css';
 // import '../assets/css/style.css';
@@ -20,7 +20,7 @@ import { LogoDashboard, ButtonClose } from '../atoms';
 export const LayoutTopBar = (props) => {
   return (
     <>
-        {props.children}
+      <TopBarMenu/>
     </>
   )
 }
@@ -38,7 +38,7 @@ export const LayoutSidebar = (props) => {
             </div>
             
             <div className="sidebar-inner slimscrollleft">
-                {props.children}
+               <SidebarMenu/>
             </div>
             {/*<!-- end sidebarinner -->*/}
 
@@ -53,11 +53,13 @@ export const LayoutContentBoard = (props) => {
   return (
     <>
     	  {/*<!-- Start right Content here -->*/}
-
+            <LayoutTopBar/>
             <div className="content-page">
             	{/*<!-- Start content -->*/}
             	<div className="content">
-            		{props.children}
+            		<ContentWrapper>
+                  {props.children}
+                </ContentWrapper>
             	</div>
 
             	<footer className="footer">

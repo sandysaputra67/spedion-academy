@@ -6,8 +6,7 @@ import {
 
 import { 
 
-	LogoDashboard, SidebarMenu, ContentWrapper, TopBarMenu,
-	LayoutSidebar, LayoutTopBar, LayoutDashboard, LayoutContentBoard
+	LayoutSidebar,  LayoutDashboard, LayoutContentBoard
 
 } from './dashboard';
 
@@ -15,8 +14,8 @@ import { Masuk, Daftar } from './auth';
 import { Header, Banner, Footer, TaglineComponent } from './main';
 
 export {
-  LogoDashboard, SidebarMenu, ContentWrapper, TopBarMenu,
-  LayoutSidebar, LayoutTopBar, LayoutDashboard, LayoutContentBoard,
+ 
+  LayoutSidebar, LayoutDashboard, LayoutContentBoard,
   
   Loader,
   Profile, Pesanan, Saldo, Kursus, History, Chat,
