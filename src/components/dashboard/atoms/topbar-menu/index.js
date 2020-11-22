@@ -18,7 +18,7 @@ const TopBarMenu = (props) => {
     	    <div className="topbar-left d-lg-block">
     	        <div className="text-center">
     	            
-    	            <NavLink to="/" className="logo">
+    	            <NavLink to="/admin" className="logo">
                     <img src="assets/dash/images/logo.png" height="20" alt="logo"/></NavLink>
     	        </div>
     	    </div>

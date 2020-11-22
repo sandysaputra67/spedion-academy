@@ -1,4 +1,4 @@
-import Students from './students';
+import Students, { NotificationStudents } from './students';
 import Teachers from './teachers';
 
-export { Students, Teachers };
+export { Students, Teachers, NotificationStudents };

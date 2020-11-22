@@ -1,20 +1,6 @@
 import React from 'react';
 import { LogoDashboard, ButtonClose, SidebarMenu, ContentWrapper, TopBarMenu, } from '../atoms';
-// import '../assets/css/bootstrap.min.css';
-// import '../assets/css/icons.css';
-// import '../assets/css/style.css';
 
-// import '../assets/js/jquery.min.js';
-// import '../assets/js/bootstrap.bundle.min.js';
-// import '../assets/js/modernizr.min.js';
-// import '../assets/js/detect.js';
-// import '../assets/js/fastclick.js';
-// import '../assets/js/jquery.slimscroll.js';
-// import '../assets/js/jquery.blockUI.js';
-// import '../assets/js/waves.js';
-// import '../assets/js/jquery.nicescroll.js';
-// import '../assets/js/jquery.scrollTo.min.js';
-// import '../assets/js/app.js';
 
 
 export const LayoutTopBar = (props) => {
@@ -62,10 +48,9 @@ export const LayoutContentBoard = (props) => {
                 </ContentWrapper>
             	</div>
 
-            	<footer className="footer">
-            	    © 2018 <b>Drixo</b> <span className="d-none d-sm-inline-block"> - Crafted with 
-            	    <i className="mdi mdi-heart text-danger"></i> by Themesdesign.</span>
-            	</footer>
+        <footer class="footer">
+          © 2020 <b>Spedion Academy</b> <span class="d-none d-sm-inline-block"> - Made With <i class="mdi mdi-heart text-danger"></i> CV Sekolah Pemberdayaan Diri</span>
+        </footer>
             </div>
           {/*<!-- End Right content here -->*/}
 

@@ -1,2 +1,2 @@
-import { ProfileStudent, PesananStudent, SaldoStudent, KursusStudent, HistoryStudent, ChatStudent} from './atoms';
-export { ProfileStudent, PesananStudent, SaldoStudent, KursusStudent, HistoryStudent, ChatStudent}
+import { ProfileStudent, PesananStudent, SaldoStudent, KursusStudent, HistoryStudent, ChatStudent, NotifStudent} from './atoms';
+export { ProfileStudent, PesananStudent, SaldoStudent, KursusStudent, HistoryStudent, ChatStudent, NotifStudent}

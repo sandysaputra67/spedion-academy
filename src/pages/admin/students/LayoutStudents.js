@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { StrictMode } from 'react';
 import {
 
 	LayoutSidebar, LayoutDashboard, LayoutContentBoard
@@ -8,7 +8,7 @@ import {
 
 const LayoutStudents = (props) => {
 	return (
-		<>
+		<StrictMode>
 			<LayoutDashboard>
 				<LayoutSidebar/>
 
@@ -19,7 +19,7 @@ const LayoutStudents = (props) => {
 				</LayoutContentBoard>
 
 			</LayoutDashboard>
-		</>
+		</StrictMode>
 	)
 }
 

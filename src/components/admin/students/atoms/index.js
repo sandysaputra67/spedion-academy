@@ -4,5 +4,6 @@ import SaldoStudent from './saldo';
 import KursusStudent from './kursus';
 import HistoryStudent from './history';
 import ChatStudent from './chat';
+import NotifStudent from './notif';
 
-export { ProfileStudent, PesananStudent, SaldoStudent, KursusStudent, HistoryStudent, ChatStudent}
+export { ProfileStudent, PesananStudent, SaldoStudent, KursusStudent, HistoryStudent, ChatStudent, NotifStudent}

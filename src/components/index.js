@@ -1,7 +1,7 @@
 import Loader from './Loader';
 import {
   Profile, Pesanan, Saldo, Kursus, History, Chat,
-  ProfileStudent, PesananStudent, SaldoStudent, KursusStudent, HistoryStudent, ChatStudent
+  ProfileStudent, PesananStudent, SaldoStudent, KursusStudent, HistoryStudent, ChatStudent, NotifStudent
 } from './admin';
 
 import { 
@@ -19,7 +19,7 @@ export {
   
   Loader,
   Profile, Pesanan, Saldo, Kursus, History, Chat,
-  ProfileStudent, PesananStudent, SaldoStudent, KursusStudent, HistoryStudent, ChatStudent,
+  ProfileStudent, PesananStudent, SaldoStudent, KursusStudent, HistoryStudent, ChatStudent, NotifStudent,
   Masuk, Daftar,
   Header, Banner, Footer, TaglineComponent
 };
