@@ -5,21 +5,27 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 const App = (props) => {
 	const arraysRoutegMainApp = ["/", "/masuk", "/daftar", "/seminar", "/market", "/instruktur", "/kursus"]; 
-	const arraysRouteDashboard = ["/admin", "/pofile"];
+	const arraysRouteDashboard = ["/student", "/profile", "/chat"];
+
+	
+
 	return (
 		<StrictMode>
 			<Router>
 				<Switch>
 					{/*== START == ROUTING ULANG CHILD COMPONENT MENCEGAH HALAMAN KOSONG */}
-					<Route exact path={arraysRoutegMainApp}>
+					<Route exact forceRefresh={true} path={arraysRoutegMainApp}>
 						<MainApp/>
 					</Route>
 			
 
 					
-					<Route exact path={arraysRouteDashboard}>
+					<Route exact forceRefresh={true} path={arraysRouteDashboard}>
 						<StudentDash />
 					</Route>
+
+
+					
 					{/* == ENDING == ROUTING ULANG CHILD COMPONENT MENCEGAH HALAMAN KOSONG */}
 
 					

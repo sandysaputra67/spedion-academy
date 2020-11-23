@@ -10,12 +10,18 @@ export const StudentDash = () => {
             <Router>
                 <Switch>
                     <Students>
-                        <Route path="/admin">
+                        <Route path="/student">
                             <NotifStudent />
                         </Route>
                         <Route path="/profile">
                             Nama Saya Alam
                         </Route>
+                        <Route path="/chat">
+                            Chatting
+                        </Route>
+                       {/*<Route exact forceRefresh={true} path={"*"}>
+                         <h1>404 NOT FOUND</h1>
+                       </Route>*/}
                     </Students>
                 </Switch>
             </Router>
